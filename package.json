@@ -1,0 +1,22 @@
+{
+  "name": "github-search-users",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luke-h1/github-search-users.git"
+  },
+  "author": "luke-h1",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luke-h1/github-search-users/issues"
+  },
+  "homepage": "https://github.com/luke-h1/github-search-users#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
