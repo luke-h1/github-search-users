@@ -11,7 +11,7 @@ class Github {
             `https://api.github.com/users/${user}?client_ID={CLIENT_ID}&client_secret={CLIENT_SECRET}`
         );
         const repoResponse = await fetch(
-            `https://api.github.com/users/${user}/repos?per_page=${this.repos_count}&sort=${this.repos_sort}&client_ID=08963522b04ef051f1b8&client_secret=cef7f16c9a2aeb072032790d125c3dd3ae4ae99e`
+            `https://api.github.com/users/${user}/repos?per_page=${this.repos_count}&sort=${this.repos_sort}&client_ID=${CLIENT_ID}&client_secret=${CLIENT_SECRET}`
         );
         const profileData = await profileResponse.json();
         const repos = await repoResponse.json();
