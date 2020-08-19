@@ -8,4 +8,4 @@
  <hr> 
  
  
-<img align="center" alt="GIF" src="example.gif" 
+![alt text](example.gif)
